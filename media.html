@@ -1,0 +1,121 @@
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <title>Fight Source: Home of MMA Analasys</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+   <!-- Additional CSS must be placed after Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" /> 
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+</head>    
+</head>
+<body>
+<header class="jumbotron jumbotron-fluid">
+  <div class="container">
+      <div class="row">
+          <div class="col-4 col-sm-3 col-md-2 align-self-center ">
+              <a href="index.html"> <img src="ufc_belt.jpg" class="img-fluid" /></a>
+           </div>
+          <div class="col">
+              <h1>Fight Source</h1>
+              <h2>Home of MMA Analasys</h2>
+          </div>
+      </div>
+  </div>
+</header>
+<nav class="navbar navbar-expand-sm sticky-top">
+  <div class="col">
+      <div class="navbar-brand">
+          <div class="collapse navbar-collapse " id="MMA_Navbar">
+            <div class="row"> 
+              <div class="col col-sm-4 offset-2">
+                <ul class="navbar-nav mx-auto" >
+                  <li class="nav-item active"><a class="nav-link" href="index.html"> <i class="fa fa-home"></i>Home</a></li>
+                  <li class="nav-item active"><a class="nav-link" href="#" style="color: black;"> <i class="fa fa-podcast"></i>News</a></li>
+                  <li class="nav-item active"><a class="nav-link" href="contactus.html"> <i class="fa fa-comment-o"></i>FeedBack</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+</nav>
+    <div class="container"  id="mediaDiv">
+      <div class="row" >
+          <div class="col col-sm-6 mx-auto videoButton">
+            <img src="thn/tmn0.jpg" class="img-fluid" />
+          </div>
+          <div class="col col-sm-6 mx-auto videoButton">
+             <img src="thn/tmn1.jpg" class="img-fluid" />
+           </div>
+      </div>
+      <div class="row">
+        <div class="col col-sm-6 mx-auto videoButton">
+          <img src="thn/tmn2.jpg" class="img-fluid" />
+        </div>
+        <div class="col col-sm-6 mx-auto videoButton">
+           <img src="thn/tmn3.jpg" class="img-fluid" />
+         </div>
+      </div>
+      <div class="row">
+      <div class="col col-sm-6 mx-auto videoButton">
+        <img src="thn/tmn4.jpg" class="img-fluid" />
+      </div>
+      <div class="col col-sm-6 mx-auto videoButton">
+         <img src="thn/tmn5.jpg" class="img-fluid" />
+       </div>
+    </div>
+    </div>
+    <!-- Modal-->
+    <div class="modal col-sm-12" tabindex="-1" role="dialog" id="videoPlayer">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle">Modal title</h5>
+              <span aria-hidden="true">&times;</span>
+            <!-- <h5 class="modal-title" id="modalTitle">Modal title</h5>
+            <button type="button" id = 'close' class="btn" data-dismiss="modal">Exit</button>
+              <span aria-hidden="true">&times;</span>
+            </button> -->
+          </div>
+          <div class="modal-body" id="videoContent">
+            <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/09MA_auIe18?start=5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" id = 'close' class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <footer>
+      <div class="container" id = "footerstyle">
+          <div class="row" id = "footerrow">
+              <div class="col col-sm-4 offset-2">
+                  <h5>Social</h5>
+                  <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                  <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                  <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                  <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+              </div>
+              <div class="col-sm-4 text-center">
+                  <i class="fa fa-phone fa-lg text-primary"></i> 1-800-555-1234<br />
+                  <i class="fa fa-envelope-o fa-lg text-primary"></i> Support@MMA-Analysis.com
+              </div>
+         </div>
+      </div>
+  </footer>
+
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="modal.js"></script>
+</body>
+<footer>
+
+</footer>
